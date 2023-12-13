@@ -29,12 +29,14 @@ public class Ejemplo041 {
             // me da el numero de elementos que tiene el arreglo
             suma = suma + arreglo1[i];
             acumulador = String.format("%sSubíndice o Índice %d, con valor "
-                    + "%d\nY la suma del arreglo es: %d\n",
+                    + "%d\n",
                     acumulador,
                     i,
-                    arreglo1[i], suma);
+                    arreglo1[i]);
             
         }
+        acumulador = String.format("%sY la suma del arreglo es: %d\n", acumulador,
+                suma);
         System.out.printf("%s",
                  acumulador.toUpperCase());
 
