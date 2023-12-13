@@ -33,6 +33,13 @@ public class Ejemplo02 {
         String[] arreglo4 = new String[5];
         System.out.println(arreglo4[0]);
         
+        System.out.println(arreglo1[0]);
+        System.out.println(arreglo1[1]);
+        System.out.println(arreglo1[2]);
+        System.out.println(arreglo1[3]);
+        System.out.println(arreglo1[4]);
+        
+        // arreglo de tipo double
         // arreglo de tipo boleano
         boolean[] arreglo5 = new boolean[5];
         System.out.println(arreglo5[0]);
