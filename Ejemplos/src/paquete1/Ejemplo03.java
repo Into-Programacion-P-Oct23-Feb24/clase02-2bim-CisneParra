@@ -19,13 +19,13 @@ public class Ejemplo03 {
 
         // arreglo de tipo entero
         int[] arreglo1 = new int[5];
-        //se declara el arreglo de forma ordinaria
+        // se declara el arreglo de forma ordinaria
         // arreglo de tipo entero
         int[] arreglo2;//se declara el tipo de arreglo
-        arreglo2 = new int[5];//se reserva la cantidad de objetos en el arreglo
-        //se declara el arreglo de manera separada
+        arreglo2 = new int[5];// se reserva la cantidad de objetos en el arreglo
+        // se declara el arreglo de manera separada
         // arreglo de tipo entero
-        int[] arreglo3 = {5, 10, 15, 20, 25}; // sin new //se asignan los valores en el arreglo
+        int[] arreglo3 = {5, 10, 15, 20, 25}; // sin new // se asignan los valores en el arreglo
         
         // arreglo de doubles - 3 elementos
         double[] arreglo4 = {5.1, 10.2, 15.2}; // sin new
