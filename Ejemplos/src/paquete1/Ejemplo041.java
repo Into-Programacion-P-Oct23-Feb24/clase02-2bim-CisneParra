@@ -27,16 +27,16 @@ public class Ejemplo041 {
         for (int i = 0; i < arreglo1.length; i++) { // la palabra lenght cuando 
             // le agrego como caracteristica de un arreglo
             // me da el numero de elementos que tiene el arreglo
+            suma = suma + arreglo1[i];
             acumulador = String.format("%sSubíndice o Índice %d, con valor "
-                    + "%d\n",
+                    + "%d\nY la suma del arreglo es: %d\n",
                     acumulador,
                     i,
-                    arreglo1[i]);
-            suma = suma + arreglo1[i];
+                    arreglo1[i], suma);
+            
         }
-        System.out.printf("%sY la suma del arreglo es: %d\n",
-                 acumulador.toUpperCase(),
-                 suma);
+        System.out.printf("%s",
+                 acumulador.toUpperCase());
 
     }
 
